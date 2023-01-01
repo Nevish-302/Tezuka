@@ -1,0 +1,58 @@
+.Main {
+    font-family: 'Darker Grotesque', sans-serif;
+    color: white;
+    font-weight: 500;
+}
+.box{
+    background-color:  rgba(52, 52, 52, 0.4);
+    margin: 5px;
+    width: 8rem;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+} 
+#Main-main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+img{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.main-head {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.main-share {
+    background-color: #3045FD;
+    margin-bottom: 2rem;
+    width: max-content;
+}
+.main-logo {
+    width: 20rem;
+}
+.main-image {
+margin-bottom: 1rem;
+}
+/* }p{
+    position: relative;
+width: 58px;
+height: 36px;
+left: 274px;
+top: calc(50% - 36px/2 + 303px);
+
+/* font/x_medium 
+
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+display: flex;
+align-items: center;
+letter-spacing: -0.24px;
+
+
+
+color: #F6F6F6;
+} */

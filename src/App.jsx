@@ -1,33 +1,33 @@
-import { useState } from 'react'
+import { React, useState } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import reactLogo from './assets/react.svg'
+import TitleScreen from "./components/TitleScreen";
 import './App.css'
+import Login from "./components/Login";
+import SignUp from "./components/SignUp";
+import Welcome from "./components/Welcome";
+import Bio from "./components/Bio";
+import Main from "./components/Main";
+import Upload from "./components/Upload";
+import Footer from "./components/Footer";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <BrowserRouter>
+      <div className="App"> 
+      <Routes>
+          <Route path = "/" exact element={<TitleScreen />} />
+          <Route path='/login' exact element={<Login />} />
+          <Route path='/signup' exact element={<SignUp />} />
+          <Route path='/bio' exact element={<Bio />} />
+          <Route path='/main' exact element={<Main />} />
+          <Route path='/welcome' exact element={<Welcome />} />
+          <Route path='/footer' exact element={<Footer />} />
+          <Route path='/upload' exact element={<Upload />} />
+      </Routes>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
+    </BrowserRouter>
   )
 }
 

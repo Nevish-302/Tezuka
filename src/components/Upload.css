@@ -1,0 +1,24 @@
+.Upload{
+    font-family: 'Darker Grotesque', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    margin: auto;
+        
+}
+.upload-head {
+    font-size: 3rem;
+    
+    line-height: 4rem;
+    margin-bottom: 10rem;
+    font-family: Montserrat;
+}
+.upload-name {
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+.upload-button {
+    margin: auto;
+}

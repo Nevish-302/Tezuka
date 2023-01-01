@@ -1,0 +1,27 @@
+.ts-logo{
+    max-width: max-content;
+    width: 20rem;
+    margin: auto;
+}
+.TitleScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+}
+.ts-login-options{
+    display: none;
+    line-height: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+}
+.ts-login {
+    margin-top: 2rem;
+    color: #ffffff;
+}
+.ts-signup{
+    font-weight: 700;
+}
+.ts-login :hover{
+    color: #3f4dd1;
+}

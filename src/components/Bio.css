@@ -1,0 +1,254 @@
+.fa {
+    font-size:24px;
+    color: white;
+}
+#no{
+    color: blue;
+}
+
+#det{
+    color:#fff;
+    opacity: 0.5;
+    font-size: 25px;
+
+font-weight: 600;
+font-size: 1.5rem;
+line-height: 23px;
+text-align: left;
+
+color: #FFFFFF;
+}
+.dob{
+font-weight: 600;
+font-size: 1.5rem;
+margin-bottom: .5rem;
+text-align: left;
+color: #FFFFFF;
+opacity: 0.5;
+}
+#date{
+font-weight: 600;
+font-size: 1.5rem;
+line-height: 23px;
+text-align: left;
+margin-bottom: 1rem;
+color: #FFFFFF;
+}
+#v1{
+width: 73px;
+height: 20px;
+left: 31px;
+top: 520px; 
+text-align: center;
+background: #F7E43C;
+border-radius: 25px;
+
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+}
+#v2{
+    position: ;
+width: 73px;
+ height: 20px;
+left: 11.5rem;
+top: 520px; 
+text-align: center;
+background: #F7953C;
+border-radius: 25px;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+}
+#v3{
+    position: ;
+width: 73px;
+height: 20px;
+left: 201px;
+top: 520px; 
+text-align: center;
+background: #7E7CD5;
+border-radius: 25px;
+
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+}
+#img1{
+      
+    height: 188px;
+}    
+.title{
+    
+    font-weight: 600;
+    font-size: 2.4rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+#bus{
+font-weight: 600;
+font-size: 1.5rem;
+text-align: center;
+color: #FFFFFF;
+margin-top: 1.5rem;
+margin-bottom: 1.5rem;
+width: 100%;
+opacity: 0.5;
+}
+#aller{
+margin-bottom: .5rem;
+font-weight: 600;
+font-size: 1.5rem;
+line-height: 20px;
+text-align: left;
+
+color: #FFFFFF;
+
+opacity: 0.5;
+}
+#ast{
+margin-bottom: 1rem;
+font-weight: 600;
+font-size: 1.5rem;
+line-height: 23px;
+text-align: left;
+
+color: #FFFFFF;
+}
+#vaci{
+margin-bottom: .5rem;
+font-weight: 600;
+font-size: 1.5rem;
+text-align: left;
+
+color: #FFFFFF;
+
+opacity: 0.5;
+}
+#vac {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+#blo{
+margin-bottom: .5rem;
+font-weight: 600;
+font-size: 1.5rem;
+text-align: left;
+color: #FFFFFF;
+opacity: 0.5;
+}
+.bio-text {
+font-weight: 600;
+font-size: 1.5rem;
+line-height: 23px;
+text-align: left;
+margin-bottom: 1rem;
+color: #FFFFFF;
+    
+}
+.number {
+ color: blue;   
+}
+.bio-head {
+margin-bottom: .5rem;
+font-weight: 600;
+font-size: 1.5rem;
+text-align: left;
+color: #FFFFFF;
+opacity: 0.5;
+}
+#bla{
+width: 277px;
+height: 39px;
+left: -80px;
+top: 560px;
+
+
+
+font-weight: 600;
+font-size: 1.5rem;
+line-height: 23px;
+text-align: left;
+
+color: #FFFFFF;
+}
+#emer{
+    position: ;
+width: 234px;
+height: 1.5rem;
+left: -5px;
+top: 596px;
+
+
+
+font-weight: 600;
+font-size: 1.5rem;
+line-height: 20px;
+text-align: left;
+
+color: #FFFFFF;
+
+opacity: 0.5;
+}
+#con1{
+    position: ;
+width: 277px;
+height: 39px;
+left: 7px;
+top: 618px;
+
+
+
+font-weight: 600;
+font-size: 1.5rem;
+line-height: 23px;
+text-align: left;
+
+color: #FFFFFF;
+}
+#con2{
+    position: ;
+width: 277px;
+height: 39px;
+left: 22px;
+top: 680px;
+
+
+
+font-weight: 600;
+font-size: 1.5rem;
+line-height: 20px;
+text-align: left;
+
+color: #FFFFFF;
+}
+#cuca{
+    position: ;
+width: 234px;
+height: 1.5rem;
+left: 13px;
+top: 750px;
+
+
+
+font-weight: 600;
+font-size: 1.5rem;
+line-height: 20px;
+text-align: left;
+
+color: #FFFFFF;
+
+opacity: 0.5;
+}
+
+#no{
+    left:-20px;
+}
+
+.Bio {
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    width: 500px;
+}
